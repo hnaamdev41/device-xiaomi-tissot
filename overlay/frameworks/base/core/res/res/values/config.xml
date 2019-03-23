@@ -19,6 +19,9 @@
 	
    <!-- Whether the device has fingeprint sensor or not -->
    <bool name="config_hasFingerprintSensor">true</bool>
+   
+   <!-- Whether the device has outdated qti-telephony-common.jar -->
+   <bool name="config_oldQtiTelephony">true</bool>	
 
    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
    <bool name="config_intrusiveNotificationLed">true</bool>
